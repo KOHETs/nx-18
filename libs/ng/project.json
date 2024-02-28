@@ -1,0 +1,9 @@
+{
+  "name": "ng",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ng/src",
+  "prefix": "nx-18",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}
