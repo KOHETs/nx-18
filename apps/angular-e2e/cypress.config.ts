@@ -4,7 +4,10 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
   e2e: {
-    ...nxE2EPreset(__filename, { cypressDir: 'src' }),
+    ...nxE2EPreset(__filename, {
+      cypressDir: 'src',
+      ciWebServerCommand: 'nx run angular:serve-static',
+    }),
     baseUrl: 'http://localhost:4200',
   },
 });
