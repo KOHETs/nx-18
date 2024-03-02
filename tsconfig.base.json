@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-18/js": ["libs/js/src/index.ts"],
       "@nx-18/ng": ["libs/ng/src/index.ts"],
       "@nx-18/workspace": ["libs/workspace/src/index.ts"]
     }
